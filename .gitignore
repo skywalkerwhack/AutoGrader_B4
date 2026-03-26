@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type check / lint cache
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# SQLite / local database
+*.db
+*.sqlite3
+
+# Uploaded files / temp files
+uploads/
+tmp/
+temp/
+
+# Alembic
+alembic/versions/__pycache__/
+
+# FastAPI / Uvicorn runtime
+uvicorn.pid
+
+# Generated export files
+exports/
+*.xlsx
+*.csv
+
+# Docker
+docker-compose.override.yml
+
+# Node (if admin frontend or docs tools exist)
+node_modules/
+
+# Mac / Linux hidden
+.AppleDouble
+.LSOverride
